@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>My weather application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="weather-app">
+    <header>
+      <form id="weater-form">
+        <div class="enter-form">
+          <div>
+        <input class="search-field" type="search" placeholder="Enter a city.." required id ="input-text-search"/>
+      </div>
+      <div>
+        <input class="search-button" type="submit" value="Search" />
+      </div>
+      </div>
+      </form>
+    </header>
+    <main>
+      <hr>
+      <div class="current-weather">
+        <div>
+          <h1>Copenhagen</h1>
+          <p>
+            <span id="change-date">Saturday 15:32</span> , Sunny<br />
+            Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+          </p>
+        </div>
+        <div class="current-temp">☀️ 26°C</div>
+      </div>
+    </main>
+    <footer>
+      <hr>
+      <div class="coded">
+      <p >
+        <strong>This project was coded by</strong> 
+        <a href="https://www.linkedin.com/in/anna-mamaieva-564a2120a/" target="_blank">Anna Mamaieva</a>
+      </p>
+      </div>
+    </div>
+    </footer>
+    <script src="src/index.js">
+ </script>
+  </body>
+</html>
